@@ -6,7 +6,7 @@ npm-debug.log.*
 .sass-cache/
 /cache/*
 download/*
-/img/*
+/img/*/*
 /log/*
 /upload/*
 vendor/*
@@ -25,26 +25,14 @@ tests/Selenium/errorDumps/
 
 themes/*/cache/*
 
-# Config
+# Themes, modules and overrides
 
-config/settings.inc.php
-config/settings.old.php
 config/xml/*
 config/themes/*
 !config/xml/themes/default.xml
 tests/Selenium/settings.js
 themes/*/config/settings_*.json
 app/config/parameters.old.yml
-app/config/config.php
-
-# Themes, modules and overrides
-
-!modules/*
-modules/config_*.xml
-modules/ps_imageslider/images/*
-!modules/ps_imageslider/images/index.php
-modules/ps_banner/img/*
-!modules/ps_banner/img/index.php
 
 !override/*
 /themes/StarterTheme
