@@ -1,6 +1,11 @@
-FROM centos:8
+FROM prestashop/prestashop
 
-#website setup
-RUN yum -y install httpd php git mod_ssl mysql; git clone https://github.com/makiki99/biznes-elektroniczny-projekt.git /var/www/html; cp /var/www/html/extra_stuff/server.crt /etc/pki/tls/certs/localhost.crt; cp /var/www/html/extra_stuff/server.key /etc/pki/tls/private/localhost.key; yum -y remove git
+ENV PS_INSTALL_AUTO=0
+ENV DB_SERVER=biznes-db:3306
+ENV DB_USER=user_5
+ENV DB_PASSWD="ach ten projekt"
+ENV DB_NAME=db_5
+ENV PS_ENABLE_SSL=1
 
-CMD apachectl -D FOREGROUND
+RUN rm -rf /var/www/html
+COPY . /var/www/html/
