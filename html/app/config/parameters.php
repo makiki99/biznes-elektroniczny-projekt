@@ -1,8 +1,8 @@
 <?php return array (
   'parameters' => 
   array (
-    'database_host' => 'some-mysql',
-    'database_port' => '',
+    'database_host' => 'biznes-db',
+    'database_port' => '3306',
     'database_name' => 'db_5',
     'database_user' => 'user_5',
     'database_password' => 'ach ten projekt',
