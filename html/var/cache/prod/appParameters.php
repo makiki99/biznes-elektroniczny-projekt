@@ -1,0 +1,25 @@
+<?php return array (
+  'parameters' => 
+  array (
+    'database_host' => 'some-mysql',
+    'database_port' => '',
+    'database_name' => 'db_5',
+    'database_user' => 'user_5',
+    'database_password' => 'ach ten projekt',
+    'database_prefix' => 'ps_',
+    'database_engine' => 'InnoDB',
+    'mailer_transport' => 'smtp',
+    'mailer_host' => '127.0.0.1',
+    'mailer_user' => NULL,
+    'mailer_password' => NULL,
+    'secret' => 'F2tj1QXUUq2GTTrYtwkedqCjMOaXem02z9dYEAbzjM1bbKU0WVMNQ8h0NPkJMmo5',
+    'ps_caching' => 'CacheMemcache',
+    'ps_cache_enable' => false,
+    'ps_creation_date' => '2021-01-23',
+    'locale' => 'pl-PL',
+    'use_debug_toolbar' => true,
+    'cookie_key' => 'CNxeVtTS3mVi38e9zwZgiuZrRzO66TBuIKCQ7TM71ZAcefxQ1UuwI8UyWzx0MVVB',
+    'cookie_iv' => 'FkSAE5Hom9f0LfjvWjkUFt4yGkph30jH',
+    'new_cookie_key' => 'def0000013fd43bdd31b66950c2652bccbea13125bf7f327071585cd8a1250051195b1780928829d4f4e8e59789204a2f768d91badc9d0760878180ab89ceebcb22d5aa7',
+  ),
+);

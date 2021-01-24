@@ -1,0 +1,18 @@
+1611520069
+s:3466:"HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 24 Jan 2021 18:27:49 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+X-XSS-Protection: 1; mode=block;
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Feature-Policy: accelerometer 'self'; ambient-light-sensor 'self'; autoplay 'self'; camera 'self'; encrypted-media 'self'; fullscreen 'self'; geolocation 'self'; gyroscope 'self'; magnetometer 'self'; microphone 'self'; midi 'self'; payment 'self'; picture-in-picture *; speaker 'self'; sync-xhr *; usb 'self'; vr 'self';
+X-Permitted-Cross-Domain-Policies: none
+Expect-CT: enforce, max-age=604800
+X-Backend-Server: vm2731.jn-hebergement.com
+
+{"modules":[{"id":"24696","name":"ps_crossselling","displayName":"Cross-selling","categoryName":"Sprzeda\u017c krzy\u017cowa & Pakiety produkt\u00f3w","description":"Kiedy znajd\u0105 si\u0119 na stronie produktu, zaoferuj klientom mo\u017cliwo\u015b\u0107 zakupu produkt&oacute;w pasuj\u0105cych do niego","author":"PrestaShop","url":"https:\/\/addons.prestashop.com\/pl\/sprzedaz-krzyzowa-pakiety-produktow\/24696-cross-selling.html?utm_source=back-office&utm_medium=push-addons&utm_campaign=back-office-PL&utm_content=download","serviceUrl":"","img":"https:\/\/medias1.prestastore.com\/img\/pico\/24696.jpg","fullDescription":"Kiedy znajd\u0105 si\u0119 na stronie produktu, zaoferuj klientom mo\u017cliwo\u015b\u0107 zakupu produkt&oacute;w pasuj\u0105cych do niego.","additionalDescription":"U\u017cyj tego modu\u0142u natywnego, aby:\r\n<ul>\r\n\t<li><strong>Zwi\u0119ksza\u0107 sprzeda\u017c: <\/strong>trzymasz r\u0119k\u0119 na pulsie swojego biznesu, kiedy oferujesz swoim klientom pasuj\u0105ce produkty, b\u0119dzie to dzia\u0142a\u0107 stymuluj\u0105co na ich zakupy.<\/li>\r\n\t<li><strong>Promowa\u0107 sw&oacute;j katalog:<\/strong> poniewa\u017c Twoje produkty wymagaj\u0105 szczeg&oacute;lnej uwagi, wy\u015bwietlaj odno\u015bne produkty za jednym klikni\u0119ciem i miej natychmiastowy dost\u0119p do odno\u015bnych produkt&oacute;w.<\/li>\r\n<\/ul>\r\n","features":"Zaproponuj swoim klientom znakomity wyb&oacute;r produkt&oacute;w powi\u0105zanych, kiedy znajd\u0105 si\u0119 na stronie produktu, b\u0119dzie to dzia\u0142a\u0107 stymuluj\u0105co podczas ich wizyty w sklepie!<br \/>\r\n<br \/>\r\nMa to zastosowanie do wszystkich, nie musisz by\u0107 zalogowany, \u017ceby zobaczy\u0107 ten wyb&oacute;r.<br \/>\r\n<br \/>\r\nWystarczy, \u017ce ustawisz w back office liczb\u0119 produkt&oacute;w, kt&oacute;re chcesz wy\u015bwietla\u0107 w swoim sklepie, i czy maj\u0105 wy\u015bwietla\u0107 si\u0119 wraz z cen\u0105. I ju\u017c, gotowe!","customer_benefits":"","demo_video":"","version":"2.0.1","last_update":"2021-01-24 13:02:00","compatibility":{"from":"1.7.2.0","to":"1.7.7.1"},"price":{"EUR":0,"USD":0,"GBP":0},"badges":[{"label":"Made by PrestaShop","img":"https:\/\/medias2.prestastore.com\/themes\/prestastore\/img\/front\/sprites\/badges\/made-by-prestashop.png"}],"cover":{"small":"https:\/\/medias3.prestastore.com\/1293771-pprod\/cross-selling.jpg","big":"https:\/\/medias3.prestastore.com\/1293771-pbig\/cross-selling.jpg"},"pictures":{"small":["https:\/\/medias3.prestastore.com\/1293772-pprod\/cross-selling.jpg"],"big":["https:\/\/medias3.prestastore.com\/1293772-pbig\/cross-selling.jpg"]}}]}";

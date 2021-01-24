@@ -8,4 +8,4 @@ ENV DB_NAME=db_5
 ENV PS_ENABLE_SSL=1
 
 RUN rm -rf /var/www/html
-COPY . /var/www/html/
+COPY ./html /var/www/html
