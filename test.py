@@ -24,7 +24,7 @@ def addProduct(category,position,quantity):
 driver = Firefox(executable_path='/bin/geckodriver')
 wait = WebDriverWait(driver,15)
 driver.maximize_window()
-driver.get("http://localhost:8080")
+driver.get("http://localhost:5242")
 sleep(2)
 
 addProduct("category-10",0,"1")
@@ -99,7 +99,7 @@ sleep(1)
 driver.find_element(By.NAME, "conditions_to_approve[terms-and-conditions]").click()
 sleep(1)
 #payment-confirmation
-driver.find_element(By.TYPE, "submit").click()
+driver.find_element(By.ID, "payment-confirmation").find_element(By.TAG_NAME, "button").click()
 sleep(1)
 
 driver.find_element(By.CLASS_NAME, "user-info").find_element(By.CLASS_NAME,"account").click()
